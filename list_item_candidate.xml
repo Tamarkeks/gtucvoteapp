@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/vote_list_bg"
+    android:layout_width="1dp"
+    android:layout_height="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/partImage" android:background="@drawable/thumb_bg" android:layout_width="69dp" android:layout_height="49dp" android:layout_marginRight="10dp" android:src="@drawable/vote_list_thumbnail_bg"  android:layout_alignTop="@id/strName" android:layout_alignParentRight="true"
+        tools:ignore="UnknownId" />
+    <Button android:textSize="18sp" android:textColor="#ffffff" android:id="@id/btnChange" android:background="@drawable/btn_vote_fx" android:layout_width="65dp" android:layout_height="30dp" android:text="Vote" android:layout_below="@id/partImage" android:layout_alignLeft="@id/partImage" android:layout_alignRight="@id/partImage" />
+    <ImageView android:id="@id/imgDp" android:background="@drawable/thumb_bg" android:layout_width="74dp" android:layout_height="80dp" android:layout_marginLeft="10dp" android:layout_marginTop="17dp" android:src="@drawable/vote_list_thumbnail_bg"  android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:layout_marginLeft="10dp" android:text="Leonardo DiCaprio" android:layout_toLeftOf="@id/partImage" android:layout_toRightOf="@id/imgDp" android:layout_alignTop="@id/imgDp"
+        android:layout_height="10dp"
+        android:layout_width="10dp" />
+    <TextView android:layout_marginTop="20dp" android:text="Indian National Congress" android:layout_toLeftOf="@id/partImage" android:layout_below="@id/strName" android:layout_alignLeft="@id/strName"
+        tools:ignore="UnknownId"
+        android:layout_height="10dp"
+        android:layout_width="10dp" />
+</RelativeLayout>
